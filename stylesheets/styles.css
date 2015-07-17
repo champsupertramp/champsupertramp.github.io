@@ -160,7 +160,7 @@ header ul a strong {
 }
 
 section {
-  width:530px;
+  width:500px;
   float:right;
   padding-bottom:50px;
 }
@@ -288,4 +288,6 @@ header{
 }
 
 
-body{ overflow-x:hidden;}
+body{ 
+    padding: 50px 0px 0px 0px;
+}
