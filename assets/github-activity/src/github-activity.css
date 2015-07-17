@@ -281,3 +281,10 @@ span.gha-time {
 .gha-muted { color: #666; }
 .gha-push  { height: 87px; }
 .gha-push-small  { height: 26px; }
+
+/*Champ's*/
+.gha-header,.gha-push{display: none !important}
+.gha-feed{border: 0px !important}
+.gha-activity.gha-small .gha-message {
+  width: 70%;
+}
