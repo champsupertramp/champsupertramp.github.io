@@ -187,12 +187,12 @@ body{
   background:url(../images/me-bckd.png) no-repeat fixed;
   background-position: -17% 90%;
   background-size: 52%;
+  padding: 50px 0px 0px 0px;
 }
 
 header{
   color: #F7F7F7;
 }
-
 
 @media print, screen and (max-width: 960px) {
 
@@ -288,6 +288,3 @@ header{
 }
 
 
-body{ 
-    padding: 50px 0px 0px 0px;
-}
