@@ -239,7 +239,7 @@ header{
     padding:0;
   }
   
-  section{
+  section,section h1, section h3, section a{
     color: #F7F7F7;
   }
 
@@ -264,7 +264,7 @@ header{
     display:none;
   }
 
-  section{
+ section,section h1, section h3, section a{
     color: #F7F7F7;
   }
 }
