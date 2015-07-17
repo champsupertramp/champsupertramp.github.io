@@ -218,14 +218,31 @@ footer {
   }
 }
 
+body{
+  background:url(../images/me-bckd.png) no-repeat fixed;
+  background-position: -17% 60%;
+  background-size: 52%;
+}
+
+header{
+  color: #F7F7F7;
+}
+
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+    background-position:0% 0%;
+  background-size: auto;
   }
 
   header {
     padding:0;
   }
+  
+  section{
+    color: #F7F7F7;
+  }
+
 
   header ul, header p.view {
     position:static;
@@ -239,10 +256,16 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+     background-position:0% 0%;
+  background-size: auto;
   }
 
   header ul {
     display:none;
+  }
+
+  section{
+    color: #F7F7F7;
   }
 }
 
@@ -255,6 +278,3 @@ footer {
 }
 
 
-body{
-  background:url(/images/me-bckd.png);
-}
