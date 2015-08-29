@@ -193,7 +193,13 @@ body{
 header{
   color: #F7F7F7;
 }
+@media print, screen and (min-width: 966px) and (max-width: 1220px) {
+   body{
+      background-position: 10%;
+      background-size: 100%;
+   }
 
+}
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -243,6 +249,7 @@ header{
     word-wrap:break-word;
     background-position:0% 0%;
   background-size: auto;
+  padding:15px;
   }
 
   header {
