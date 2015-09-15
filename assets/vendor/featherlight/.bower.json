@@ -1,0 +1,37 @@
+{
+  "name": "featherlight",
+  "version": "1.0.4",
+  "main": "release/featherlight.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test",
+    "*.md",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "devDependencies": {
+    "jquery": "~1.7.0",
+    "requirejs": "~2.1.10",
+    "chai": "~1.9.1",
+    "chai-jquery": "*",
+    "chai-properties": "git://github.com/vbardales/chai-properties.git",
+    "lodash": "*",
+    "mocha": "~1.18.2"
+  },
+  "keywords": [
+    "featherlight",
+    "javascript",
+    "library"
+  ],
+  "homepage": "https://github.com/noelboss/featherlight",
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.4",
+    "commit": "63d9b8c63a5f7f895fffea9bcd6bebf675e197a2"
+  },
+  "_source": "git://github.com/noelboss/featherlight.git",
+  "_target": "~1.0.4",
+  "_originalSource": "featherlight"
+}
